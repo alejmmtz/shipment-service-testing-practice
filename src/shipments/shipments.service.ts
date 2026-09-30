@@ -1,10 +1,10 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
-import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
-import { CreateShipmentDto } from './dto/create-shipment.dto';
-import { ShipmentEntity } from './entities/shipment.entity';
-import { ShipmentRulesService } from './shipment-rules.service';
-import { ShipmentStatus } from './shipment-status.enum';
+import { Injectable, NotFoundException } from "@nestjs/common";
+import { InjectRepository } from "@nestjs/typeorm";
+import { Repository } from "typeorm";
+import { CreateShipmentDto } from "./dto/create-shipment.dto";
+import { ShipmentEntity } from "./entities/shipment.entity";
+import { ShipmentRulesService } from "./shipment-rules.service";
+import { ShipmentStatus } from "./shipment-status.enum";
 
 @Injectable()
 export class ShipmentsService {
