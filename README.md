@@ -26,3 +26,7 @@ Las pruebas unitarias no requieren Docker ni PostgreSQL. La configuración de ba
 - `src/shipments/dto/create-shipment.dto.ts`
 
 El trabajo debe concentrarse en el archivo de pruebas.
+
+## Proof of npm test working
+
+![alt text](proof.png)

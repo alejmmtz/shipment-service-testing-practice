@@ -169,7 +169,6 @@ describe("ShipmentsServiceTest", () => {
     repositoryMock.save.mockResolvedValue(DispatchedShipmentMock);
 
     // Act
-
     const result = await service.dispatch(7);
 
     // Assert
